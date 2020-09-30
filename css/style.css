@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('all.min.css');
+
+body{
+    margin: 0;
+}    
+
+*{
+    box-sizing: border-box;
+}    
+
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+h2{
+   color: #191919;
+   font-size: 26px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   margin-bottom: 38px;
+   letter-spacing: 1px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+/*style for header*/
+header{
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background position: center;
+    background-size: cover;
+    padding-top: 38px;
+}
+
+
+.container{
+
+    width: 1140px;
+    margin: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.img-fluid{
+     display: inline-block;
+     width: 100%;
+     height: auto;
+}
+
+.row{
+    overflow: hidden;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+
+
+.col-3{
+    float: left;
+    width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.col-6{
+    float: left;
+    width: 49.5%;
+}
+
+
+.col-9{
+    float: left;
+    width: 75%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+
+
+/*style for Header section*/
+
+header .container{
+    overflow: hidden;
+}
+
+header .container div{
+    overflow: hidden;
+    margin-bottom: 90px;
+}
+
+header .container #logo{
+    float: left;
+}
+
+header .container nav{
+    float: right;   
+}
+header .container nav li{
+    display: inline-block;
+    margin-right: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+header .container nav li a{
+    color: #191919;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+header .container nav li a:hover{
+    color: #10c9c3;
+}
+
+header .container nav .active a{
+    color: #10c9c3;
+}
+header .container section {
+    width: 455px;
+    float: right;
+    margin-bottom: 200px;
+}
+
+header .container section h1{
+    color: #1d1d1d;
+    font-size: 34px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 32px;
+}
+header .container section p{
+    color: #1d1d1d;
+    font-size: 17px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 35px;
+    line-height: 24px;
+}
+header .container section button{
+    display: inline-block;
+    font-weight: 400;
+    color: #FFF;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #10c9c3;
+    border: none;
+    padding: 20px 48px;
+    font-size: 12px;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+
+
+
+
+/*Style for about us section*/
+#about-us{
+    padding-top: 100px;
+    
+}
+
+#about-us .container{
+    padding-bottom: 100px;
+}
+
+
+#about-us p{
+    color: #787878;
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 22px;
+}
+
+#about-us #signature{
+    width: 225px;
+    margin: 35px auto 0;
+}
+
+#about-us .row .col-6 #Professional h2{
+    margin-bottom: 34px;
+}
+
+#about-us .row .about-skill{
+    background-image: url(../img/work2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 570px;
+}
+
+
+#about-us .row .Professional-skill{
+    background-color: #f8f9f9;
+    padding-top: 146px;
+    padding-bottom: 146px;
+    
+}
+
+#about-us .row .col-6 #Professional{
+    width:500px;
+    margin: auto;
+}
+
+#about-us .row .col-6 #Professional .progress{
+    display: flex;
+    height: 3px;
+    overflow: hidden;
+    line-height: 0;
+    font-size: 75rem;
+    background-color: #d8d8d8;
+    border-radius: .25rem;
+    
+}
+
+
+#about-us .row .col-6 #Professional .progress .progress-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align:center;
+    white-space: nowrap;
+    background-color: #10c9c3;
+}
+
+
+#about-us .row .col-6 #Professional > div {
+    margin-bottom: 32px;
+}
+
+
+#about-us .row .col-6 #Professional > div > div {
+    margin-bottom: 16px;
+}
+
+#about-us .row .col-6 #Professional > div > div strong {
+    color: #000;
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+#about-us .row .col-6 #Professional > div > div strong span {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+
+/*styele for parallux section */
+#parallux{
+    background-image: url(../img/parallax.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+#parallux::before{
+    content: "";
+    background-color:rgba(16, 201, 195, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}    
+
+
+#parallux .container{
+    position: relative;
+    z-index: 1;
+    color: #FFF;
+}
+
+
+#parallux .row{
+    padding-top:  2px;
+}
+
+
+#parallux .container .row .col-3 .row .col-9 p strong {
+    font-size: 18px;
+}
+
+#parallux .container .row .col-3 .row .col-9 p:last-child{
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
